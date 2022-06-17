@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-container {
+    background-color: #1f2937;
+    padding: 25px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-section {
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.hero-picture {
+    background-color: #595d61;
+    width: 550px;
+    height: 250px;
+    display: flex;
+    margin-left: 95px;
+
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    border: 1px solid #3882f6;
+    padding: 7px;
+    width: 150px;
+}
+
+.btn a {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.cards-container>h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.cards-container,
+.message-container,
+.call-action,
+.footer-container {
+    background-color: #fff;
+    padding: 25px 200px;
+}
+
+.cards-container {
+    text-align: center;
+}
+
+.square {
+    margin: 50px auto;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.message-container {
+    background-color: #e5e7eb;
+}
+
+.caption-container {
+    text-align: center;
+}
+
+.figcaption {
+    margin-left: 600px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.caption {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1f2937;
+}
+
+.call-action {
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    padding: 50px 100px;
+    width: 80%;
+
+}
+
+
+.btn-container .btn {
+    border: 3px solid #fff;
+    margin-left: 200px;
+}
+
+.footer-container {
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+}
